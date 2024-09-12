@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vinci un pranzo o cena gratis!</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div id="start-screen" class="screen">
+        <h1>Vuoi sfidare la sorte?</h1>
+        <h2>
+          Prova a vincere un fantastico regalo offerto da Kekkino Andrisani
+        </h2>
+        <img
+          src="placeholder.jpg"
+          alt="Immagine placeholder"
+          id="image-placeholder"
+        />
+        <button id="play-button">Gioca</button>
+      </div>
+      <div id="question-screen" class="screen hidden">
+        <h3 id="question-text">Domanda 1: Come ti chiami?</h3>
+        <div id="answers">
+          <label>
+            <input type="radio" name="answer" value="a" />
+            Giovanni Rana
+          </label>
+          <label>
+            <input type="radio" name="answer" value="b" />
+            Iago
+          </label>
+          <label>
+            <input type="radio" name="answer" value="c" />
+            Alessia detta la Polina
+          </label>
+        </div>
+        <button id="next-button">Avanti</button>
+      </div>
+      <div id="result-screen" class="screen hidden">
+        <p id="result-message">
+          Hai vinto un pranzo o cena al <strong>sushi</strong> offerto
+          interamente dallo sviluppatore!
+        </p>
+
+        <iframe
+          src="https://giphy.com/embed/l3vRlT2k2L35Cnn5C"
+          width="480"
+          height="384"
+          frameborder="0"
+          class="giphy-embed"
+          allowfullscreen
+        ></iframe>
+        <p>
+          <a href="https://giphy.com/gifs/dance-donald-l3vRlT2k2L35Cnn5C"
+            >via GIPHY</a
+          >
+        </p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

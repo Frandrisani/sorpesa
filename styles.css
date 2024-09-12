@@ -1,0 +1,130 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  max-width: 100%;
+  padding: 20px;
+}
+
+.screen {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hidden {
+  display: none;
+}
+
+#start-screen {
+  background: linear-gradient(135deg, #ff8a00, #e52e71);
+  color: white;
+}
+
+#question-screen {
+  background: #4caf50;
+  color: white;
+}
+
+#result-screen {
+  background: #2196f3;
+  color: white;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: 700;
+  /* Applying bold font weight to all titles */
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 80%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 12px 25px;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+#play-button {
+  background-color: #e52e71;
+}
+
+#play-button:hover {
+  background-color: #c2185b;
+}
+
+#next-button {
+  background-color: #4caf50;
+}
+
+#next-button:hover {
+  background-color: #388e3c;
+}
+
+#answers {
+  margin-top: 20px;
+}
+
+#answers label {
+  display: block;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+#answers input {
+  margin-right: 10px;
+}
+
+#result-message {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+#result-screen img {
+  max-width: 50%;
+  height: auto;
+  margin-top: 20px;
+}
+
+/* Additional styles to make "sushi" bold */
+#result-message strong {
+  font-weight: 700; /* Ensuring "sushi" is bold */
+}

@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "Domanda 3: Se avessi un desiderio ora, quale sarebbe?";
       document.getElementById("answers").innerHTML = `
             <label><input type="radio" name="answer" value="a"> Che un bravo ragazzo mi offrisse del sushi</label>
-            <label><input type="radio" name="answer" value="b"> Sentire fra dire 'vavallina' da piccolo</label>
+            <label><input type="radio" name="answer" style="color: red" value="b"> Sentire fra dire 'vavallina' da piccolo</label>
             <label><input type="radio" name="answer" value="c"> Un campo di zucchine enorme sotto casa</label>
           `;
       nextButton.textContent = "Scopri cosa hai vinto";
@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
           "Hai vinto un pranzo o cena al sushi offerto interamente dallo sviluppatore!";
       } else {
         resultMessage.textContent =
-          "Mi dispiace, non è possibile... riprova a scegliere.";
+          "Mi dispiace, non è possibile... riprova a scegliere e clicca qui.";
         nextButton.textContent = "Risposta sbagliata, scegli un'altra risposta";
         // Optional: Add logic to reset questions or go back to start
       }

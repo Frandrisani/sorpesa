@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
       } else {
         resultMessage.textContent =
           "Mi dispiace, non è possibile... riprova a scegliere.";
-        nextButton.textContent = "Riprova";
+        nextButton.textContent = "Risposta sbagliata, scegli un'altra risposta";
         // Optional: Add logic to reset questions or go back to start
       }
     }

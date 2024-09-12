@@ -34,8 +34,12 @@ document.addEventListener("DOMContentLoaded", function () {
         "Domanda 3: Se avessi un desiderio ora, quale sarebbe?";
       document.getElementById("answers").innerHTML = `
             <label><input type="radio" name="answer" value="a"> Che un bravo ragazzo mi offrisse del sushi</label>
-            <label style="color: red"><input type="radio" name="answer" value="b"> Sentire fra dire 'vavallina' da piccolo</label>
-            <label><input type="radio" name="answer" value="c"> Un campo di zucchine enorme sotto casa</label>
+            <label style="color: red;
+  font-weight: bold;
+  text-decoration: line-through; "><input type="radio" name="answer" value="b"> Sentire fra dire 'vavallina' da piccolo</label>
+            <label style="color: red;
+  font-weight: bold;
+  text-decoration: line-through; "><input type="radio" name="answer" value="c"> Un campo di zucchine enorme sotto casa</label>
           `;
       nextButton.textContent = "Scopri cosa hai vinto";
     } else if (currentQuestion === 3) {
